@@ -2,6 +2,7 @@
 # Aprendendo Typescript
 
 Curso: [Iniciando com Typescript](https://www.udemy.com/course/iniciando-com-typescript/)
+
 Plataforma: Udemy
 
 ## O que aprendi
@@ -15,21 +16,27 @@ Plataforma: Udemy
 #### Básico
 
 String
+
 `const texto:string = "Tipo string"`
 
 Number
+
 `const numero:number = 13`
 
 Boolean
+
 `let verdadeiroOuFalso:boolean`
 
 Array de string
+
 `let lista:string[] = ["verde", "azul"]`
 
 Array pode ser declarado de outra forma
+
 `let lista:Array<string> = ["verde", "azul"]`
 
 Array de números
+
 `let listaNumeros:Array<number> = [75,55,14]`
 
 Tipo de dado **enum** semelhante ao objeto
@@ -108,11 +115,13 @@ interface IVeiculo {
 ### Módulos
 
 Com typescript é possível utilizar módulos para organizar o código
+
 `import Veiculo from  "./veiculo-class";`
 
 ### Utilizando com webpack
 
 Para utilizar webpack é preciso instalar o loader de Typescript via terminal:
+
 `npm install typescript webpack webpack-cli ts-loader`
 
 e configurar o loader no arquivo de configuração **webpack.config.js**
